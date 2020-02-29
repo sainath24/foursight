@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515379928218",
+    "firebase_url": "https://cartalyst-2e70c.firebaseio.com",
+    "project_id": "cartalyst-2e70c",
+    "storage_bucket": "cartalyst-2e70c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515379928218:android:0102e5cd10fa5276275323",
+        "android_client_info": {
+          "package_name": "com.example.cartalyst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515379928218-aeosb210g5tokdv1e6oqimjs09k9i2s0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj9aJfC1sVQ7jlW_R_ViQcG6QLsOJ9b9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515379928218-aeosb210g5tokdv1e6oqimjs09k9i2s0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

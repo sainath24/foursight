@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/citizen_complaints_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_add_black_24dp"
+        android:background="#a4a5a5"
+        android:backgroundTint="#a4a5a5"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/fab_pothole_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@id/fab_pothole"
+        android:visibility="invisible"
+        android:text="Potholes" />
+
+    <TextView
+        android:id="@+id/fab_cow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505dp"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@id/fab_cow"
+        android:visibility="invisible"
+        android:text="Cattle" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_cow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_cow"
+        android:layout_marginTop="400dp"
+        app:fabSize="mini"
+        android:background="#a4a5a5"
+        android:backgroundTint="#a4a5a5"
+        android:layout_alignParentEnd="false"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_pothole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        app:fabSize="mini"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/ic_cow"
+        android:background="#a4a5a5"
+        android:backgroundTint="#a4a5a5"
+        android:layout_alignParentEnd="false"
+        />
+
+</RelativeLayout>
